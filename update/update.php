@@ -48,7 +48,7 @@ while ($row1 = mysqli_fetch_assoc($result2)) {
         <label for="date_edition">Année d'édition du livre</label>
         <input type="text" name="date_edition" id="date" value="<?php echo ($_POST['date_edition']); ?>">
         <br>
-        <input type="submit" name="oui" value="oui"">
+        <input type="submit" name="oui" value="oui">
         <br>
         <button><a href=" ../read/livre.php">Ne rien toucher</a></button>
     </form>
